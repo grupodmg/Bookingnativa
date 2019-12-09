@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/escanear"
+            android:title="Escanear Qr"
+            android:icon="@drawable/ic_center"/>
+        <item
+            android:id="@+id/reconcimiento"
+            android:title="Reconcimiento de voz"
+            android:icon="@drawable/ic_voice"/>
+
+        <item
+            android:id="@+id/mapa"
+            android:title="Mapa"
+            android:icon="@drawable/mapa"/>
+        <item
+            android:id="@+id/pagos"
+            android:title="paypal"
+            android:icon="@drawable/ic_payment"/>
+        <item
+            android:id="@+id/sesion"
+            android:title="Inciar sesion"
+            android:icon="@drawable/ic_input"/>
+        <item
+            android:id="@+id/reservas"
+            android:title="Reservas"
+            android:icon="@drawable/ic_cupo"/>
+        <item
+            android:id="@+id/ofertas"
+            android:title="Ofertas"
+            android:icon="@drawable/ic_ofert"/>
+        <item
+            android:id="@+id/listas"
+            android:title="listas"
+            android:icon="@drawable/ic_favorite"/>
+        <item
+            android:id="@+id/Alquiler"
+            android:title="Alquiler de coches"
+            android:icon="@drawable/ic_car"/>
+
+    </group>
+
+    <item android:title="Ajustes">
+
+        <menu>
+
+            <item
+                android:id="@+id/atencion"
+                android:title="Atención al cliente" />
+            <item
+                android:id="@+id/compartir"
+                android:title="Autenticacion" />
+
+            <item
+                android:id="@+id/opinion"
+                android:title="opina sobre la app"/>
+
+            <item
+                android:id="@+id/pregunta"
+                android:title="Ayuda"/>
+
+
+        </menu>
+
+    </item>
+</menu>

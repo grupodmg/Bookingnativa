@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blanco"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/loginActivityImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_torre"
+        android:tint="@color/colorLight" />
+
+    <TextView
+        android:id="@+id/loginTv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginActivityImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Booking"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="262dp"
+        android:layout_above="@id/txtlogin"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="149dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/loginTv1"
+            android:layout_below="@id/loginTv1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtcorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:drawableLeft="@drawable/ic_person"
+                android:textColorHint="#ccc"
+                android:drawablePadding="8dp"
+                android:hint="@string/enter_email"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:inputType="textEmailAddress" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"></View>
+
+            <EditText
+                android:id="@+id/edtcontraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorWhite"
+                android:drawableLeft="@drawable/ic_lock"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColorHint="#ccc"
+                android:drawablePadding="8dp"
+                android:hint="@string/enter_password"
+                android:inputType="textPassword" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"></View>
+
+            <Button
+                android:id="@+id/btnenviar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/gradientbuttonprimary"
+                android:text="Ingresar"
+                android:textSize="24dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorLight" />
+
+            <Button
+                android:id="@+id/btnregistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/gradientbuttonsignup"
+                android:text="Registro"
+                android:textSize="24dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorLight" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="61dp"
+        android:text="Olvido su contraseña?"
+        android:textColor="@color/colorLight" />
+
+</RelativeLayout>

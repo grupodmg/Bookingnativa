@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Fragment2Fragment">
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:layout_below="@id/registerActivityImageview"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ahora,encontraremos el alquiler perfecto"
+            android:textColor="@color/colorLight"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtnombre"
+            style="@style/RegisterActivityText"
+            android:hint="Lugar de Recogida" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLight"
+            android:text="devolver el coche en la misma oficina" />
+
+        <EditText
+            android:id="@+id/txtpassword"
+            style="@style/RegisterActivityText"
+            android:hint="Fecha de recogida"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLight"
+            android:text="Conductor entre 30 y 65 años" />
+
+        <EditText
+            android:id="@+id/txtconfirmacion"
+            style="@style/RegisterActivityText"
+            android:hint="Fecha devolucion"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/registerActivityLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="Cancelaciones gratuitas en la mayoria de reservas"
+            android:textColor="@color/colorDark"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="333dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/gradientbuttonlight"
+            android:text="Buscar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+</LinearLayout>

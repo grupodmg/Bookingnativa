@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:background="@drawable/gradient"
+    android:paddingRight="16dp"
+    tools:context=".RegistroActivity">
+
+
+<ImageView
+    android:id="@+id/registerActivityImageview"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="24dp"
+    android:src="@drawable/ic_torre"
+    android:tint="@color/colorWhite"
+    android:layout_width="100dp"
+    android:layout_height="100dp" />
+
+<LinearLayout
+    android:layout_below="@id/registerActivityImageview"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/registro"
+        android:text="Registro"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        style="@style/RegisterActivityText"
+        android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/txtcorreo"
+        style="@style/RegisterActivityText"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/txtpassword"
+        style="@style/RegisterActivityText"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/txtconfirmacion"
+        style="@style/RegisterActivityText"
+        android:hint="@string/Recordar"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_marginTop="16dp"
+        android:text="@string/registar"
+        android:textSize="24dp"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:background="@drawable/gradientbuttonlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/registerActivityLogin"
+    android:layout_alignParentBottom="true"
+    android:text="Olvido la contraseña? Ingresar"
+    android:gravity="center_horizontal"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

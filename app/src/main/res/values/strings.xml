@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Booking</string>
+    <string name="enter_email">Ingrese un correo</string>
+    <string name="enter_password">Ingrese una contraseña</string>
+    <string name="Recordar">Verificar Contraseña</string>
+    <string name="registar">Registar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">abrir navegador</string>
+    <string name="close">cerrar navegador</string>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="default_notification_channel_id" translatable="false">defaul_channel</string>
+    <string name="objTTS_sin_motor">El dispositivo no cuenta con la capacidad de sintesis de texto</string>
+
+    <string name="titulo">Informacion de tarjeta</string>
+    <string name="numeroTarjeta">No. Tarjeta</string>
+    <string name="nombre">Nombre</string>
+    <string name="mes">mes</string>
+    <string name="anio">anio</string>
+    <string name="cvv">CVV</string>
+    <string name="scan">escanera tarjeta</string>
+    <string name="guardar">Guardar</string>
+    <string name="faltancampos">Faltan campos requeridos</string>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opcion1"
+        android:icon="@drawable/ic_busqueda"
+        app:showAsAction="ifRoom"
+        android:title="Busqueda"></item>
+
+    <item
+        android:id="@+id/opcion2"
+        android:icon="@drawable/ic_notifications"
+        android:title="Idioma"></item>
+
+    <item
+        android:id="@+id/opcion3"
+        android:icon="@drawable/ic_notifications"
+        android:title="Moneda"></item>
+
+    <item
+        android:id="@+id/opcion4"
+        android:icon="@drawable/ic_notifications"
+        android:title="Iniciar Sesion"></item>
+
+
+
+</menu>
